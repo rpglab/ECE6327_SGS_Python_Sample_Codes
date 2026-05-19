@@ -10,14 +10,14 @@ The course materials such as lecture slides and assignments can be found with th
 * https://rpglab.github.io/resources/ECE6327-SGS/
 
 
-This repository is a **Python port** of the course materials for ECE6327 *Smart Grid Systems* (University of Houston, 2026 Spring). Every AMPL `.mod` program from the original distribution has been converted into a Pyomo Jupyter notebook solved with Gurobi.
+This repository is a **Python port** of the course materials for ECE6327 *Smart Grid Systems* (University of Houston, 2026 Spring). Every AMPL program from the original distribution has been converted into a Pyomo Jupyter notebook solved with Gurobi.
 
 The port was carried out by **Haoxiang Wan**, PhD student of Dr. Xingpeng Li.
 
 #### Shared Contents:
-1. Folder `Pyomo_Codes` contains the converted Jupyter notebooks (`*.ipynb`), organized to match the lecture slide numbering (`05_DCOPF`, `06_SCUC`, `10_DSM2`, `15_RE_Intgrtn1_Uncertainty`, ...).
-2. The original AMPL data files (`*.txt`) are shipped verbatim alongside the notebooks that read them &mdash; the Pyomo notebooks load them through a small parser at `Pyomo_Codes/ampl_data.py` (`parse_ampl_data`, `parse_text`), preserving the original AMPL data-file workflow.
-3. All notebooks are **pre-executed**; solver logs and final numerical results are visible directly on GitHub.
+1. The repo contains the converted Jupyter notebooks (`*.ipynb`), organized to match the lecture slide numbering (`05_DCOPF`, `06_SCUC`, `10_DSM2`, `15_RE_Intgrtn1_Uncertainty`, ...).
+2. The original AMPL data files (`*.txt`) are shipped verbatim alongside the notebooks that read them &mdash; the Pyomo notebooks load them through a small parser at `ampl_data.py` (`parse_ampl_data`, `parse_text`), preserving the original AMPL data-file workflow.
+3. All notebooks are **pre-executed**; solver logs and final numerical results are visible directly.
 
 
 #### Software Requirements:
