@@ -1,1 +1,1 @@
-# ECE6327_PSOM_Python_Sample_Codes
+# ECE6327_SGS_Python_Sample_Codes
